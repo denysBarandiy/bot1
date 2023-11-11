@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+.wrap {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    background-color: #333;
+    color: #ffff;
+}
+
+.logo {
+    font-weight: 900;
+}
+
+#send {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+#send span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+    position: relative;
+    top: -20px;
+}
+.goodsContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.goodsContainer div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+width: 200px;
+height: 250px;
+border-radius: 20px;
+border: none;
+border: solid 2px black;
+padding: 10px;
+}
+.buyBtn{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    border: solid 1px black;
+    background-color: #fff;
+}
+.buyBtn:active {
+    background-color: black;
+    border: solid 1px #fff;
+    color: white;
+    border: none;
+}
+.menu{
+    display: none;
+    width: 450px;
+    height: 600px;
+    border-radius: 40px;
+    position: absolute;
+    margin-top: 200px;
+    border: solid 1px #000;
+    background-color: white;
+}
+.menu i{
+    margin-left: 410px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.menu button{
+    position: absolute;
+    margin-top: 560px;
+    margin-left: 180px;
+    width: 80px;
+    height: 25px;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    border: solid 1px black;
+    background-color: #fff;
+}
+.menu button:active{
+    background-color: black;
+    border: solid 1px #fff;
+    color: white;
+    border: none;
+}

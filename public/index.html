@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shop</title>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js' integrity='sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==' crossorigin='anonymous'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.js' integrity='sha512-iC0CGhwGwgIjo7pRPE2dDC98S2YFB4Y6sJjOfto+gvz7pTljj9KWy2/Ad28xgMQDfT05HJeKb7JN7dXJDnKCVA==' crossorigin='anonymous'></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css' integrity='sha512-KOWhIs2d8WrPgR4lTaFgxI35LLOp5PRki/DxQvb7mlP29YZ5iJ5v8tiLWF7JLk5nDBlgPP1gHzw96cZ77oD7zQ==' crossorigin='anonymous'/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrap">
+        <div id="cart" class="menu">
+            <i class="fa-solid fa-xmark fa-xl" id="close"></i>
+            <button>buy</button>
+            <div id="cartItems"></div>
+        </div>
+        <div class="header">
+            <div class="logo">Online Market</div>
+             <div id="send"> 
+                <i class="fa-solid fa-cart-shopping" id="shop"></i> 
+                <span id="cartLength">0</span>
+             </div>
+        </div>
+        <div class="goodsContainer"></div>
+    </div>
+  <script src="./main.js"></script>
+</body>
+</html>
